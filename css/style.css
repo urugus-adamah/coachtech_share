@@ -170,7 +170,7 @@ select {
 /* その他のスタイルは以下に記述していきます */
 html{
   width: 1300px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 header{
@@ -245,8 +245,11 @@ header{
   color: #fff;
   width: 20%;
   background-color: #000;
-  text-align: center;
-  line-height: 50px;
+  /* text-align: center; */
+  /* line-height: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .for_costomer{
@@ -275,7 +278,7 @@ header{
   font-size: 12px;
   line-height: 1.5em;
 }
-.for_msg h1,p,a{
+.for_msg h1,.for_msg p,.for_msg a{
   margin-bottom: 20px;
 }
 
@@ -353,7 +356,7 @@ header{
   right: 20%;
 }
 
-.mission_window p,h3,h4{
+.mission_window p,.mission_window h3,.mission_window h4{
   margin-bottom: 15px;
 }
 .mission_window p{
@@ -457,7 +460,8 @@ header{
 .contact_container a{
   background-color: transparent;
   color: #fff;
-  border-color: #fff
+  border-color: #fff;
+  margin-top: 10px;
 }
 
 footer{
